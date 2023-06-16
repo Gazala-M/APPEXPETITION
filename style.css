@@ -15,13 +15,13 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .logo img {
-    max-width: 100%;
+    width: 130px;
     height: auto;
-    left: 10% !important;
-    top: 20px;
+
 }
 
 .navbar {
@@ -32,7 +32,7 @@ html {
     position: fixed !important;
     top: 0;
     cursor: pointer;
-    height: 15vh;
+    height: 11vh;
     background-color: #233B6F;
     z-index: 99;
     overflow: hidden;
@@ -47,7 +47,7 @@ html {
 
 .nav-list li {
     list-style: none;
-    padding: 26px 30px;
+    padding: 6px 30px;
 }
 
 .nav-list li a {
@@ -350,6 +350,9 @@ html {
 .development_process_section .process_col:last-child .arrow img {
     display: none;
 }
+.process_inner .icon{
+    width: 170px !important;
+}
 
 
 /*Get-in-touch section */
@@ -645,7 +648,7 @@ html {
 }
 .first-half img{
     max-width: 100%;
-    height: 800px;
+    height: auto;
     object-fit: cover;
 }
 .second-half{
