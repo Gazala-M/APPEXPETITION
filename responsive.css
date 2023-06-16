@@ -1,8 +1,8 @@
- /* @media only screen and (max-width: 1400px){
+  @media only screen and (max-width: 1400px){
   .navbar{
      height: 15vh !important;
   }
-}      */
+}      
 
 @media only screen and (max-width: 1200px){
   .section{
@@ -75,10 +75,10 @@
   height: auto; 
 }
 .card{
-  min-height: auto !important;
+  min-height: 256px !important;
 }
 .card-reason{
-  min-height: auto !important;
+  min-height: 256px !important;
 }
 }
 
@@ -106,9 +106,7 @@
 .client-section{
   height: 550px;
 }
-/*.navbar {
-  height: 30vh;
-}  */
+
 .contact-section {
   height: auto;
 }
@@ -132,10 +130,7 @@
   .container1{
     max-width: 750px;
   }
-  .reason-heading{
-    margin: 20px 0px;
-    padding: 10px 80px;
-}
+
 .client-heading {
   font-size: 40px;
   line-height: 60px;
